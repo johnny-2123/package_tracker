@@ -1,0 +1,15 @@
+<html>
+
+<head>
+    {% if title %}
+    <title>{{ title }} - Shipping Tracker</title>
+    {% else %}
+    <title>Shipping Tracker</title>
+    {% endif %}
+</head>
+
+<body>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
